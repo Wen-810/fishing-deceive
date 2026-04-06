@@ -59,7 +59,7 @@ function login(){
     });
 }
 
-// 第三方登入
+
 document.querySelector(".google-btn").addEventListener("click", ()=>{
   alert("Google 登入（模擬）");
 });
