@@ -9,6 +9,7 @@ body{
   background:#ffffff;
 }
 
+
 .topbar{
   background:#ffffff;
   padding:25px 40px;
@@ -35,6 +36,60 @@ body{
 
 .promo h1{
   font-size:40px;
+}
+/* 副標 */
+/* ===== 主標 ===== */
+.main-title{
+  font-size:42px;
+  font-weight:bold;
+  letter-spacing:2px;
+}
+
+/* ===== 副標 ===== */
+.subtitle{
+  margin-top:12px;
+  font-size:18px;
+  opacity:0.9;
+}
+
+/* ===== 功能區 ===== */
+.features{
+  margin-top:40px;
+  display:flex;
+  gap:40px;
+}
+
+/* ===== 每個項目 ===== */
+.feature{
+  text-align:center;
+  transition: transform 0.3s ease;
+}
+
+.feature span{
+  font-size:32px;
+  display:block;
+}
+
+/* hover 動畫 */
+.feature:hover{
+  transform: translateY(-8px);
+}
+
+/* ===== 文字 ===== */
+.feature p{
+  margin-top:8px;
+  font-size:14px;
+}
+
+/* ===== 整體浮動動畫 ===== */
+.promo{
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+  0%{ transform: translateY(0); }
+  50%{ transform: translateY(-10px); }
+  100%{ transform: translateY(0); }
 }
 
 .promo p{
