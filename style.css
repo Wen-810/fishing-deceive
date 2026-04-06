@@ -8,6 +8,11 @@
 body{
   background:#ffffff;
 }
+.logo{
+  font-size: 30px;
+  margin: 0;
+  color:#ee4d2d;
+}
 
 
 .topbar{
